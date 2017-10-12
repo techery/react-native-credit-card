@@ -1,13 +1,11 @@
 'use strict';
 
 import React from 'react';
-const {
-    PropTypes,
-    Component
-} = React;
+const { Component } = React;
 
 import Payment from 'payment';
 import FlipCard from 'react-native-flip-card';
+import PropTypes from "prop-types";
 
 import {
     View,
